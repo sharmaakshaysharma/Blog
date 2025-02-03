@@ -1,0 +1,36 @@
+.create-blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.create-blog-card {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.image-preview {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+textarea {
+    resize: none; /* Disable resizing altogether */
+  }
+  textarea {
+    resize: vertical; /* Allow only vertical resizing */
+  }
+    

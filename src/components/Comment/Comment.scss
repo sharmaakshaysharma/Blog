@@ -1,0 +1,57 @@
+/* Style for the main comment box */
+.comment-container {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+  }
+  
+  .comment-container.reply {
+    background-color: #f9f9f9; /* Light background for replies */
+    border: 1px solid #ddd;    /* Border for replies */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for replies */
+    margin-left: 20px;          /* Indentation for replies */
+  }
+  
+  /* Style for the comment author's name */
+  .comment-author {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for the comment content */
+  .comment-content {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the comment date */
+  .comment-date {
+    font-size: 0.875rem;
+    color: #999;
+  }
+  
+  /* Style for the reply button */
+  .reply-button {
+    padding: 6px 12px;
+    text-transform: none;
+    font-weight: bold;
+    color: #3f51b5;
+    border: 1px solid #3f51b5;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .reply-button:hover {
+    background-color: #f3f5fb;
+    border-color: #3f51b5;
+  }
+  
+  /* Style for nested replies */
+  .nested-replies {
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+  
